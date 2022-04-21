@@ -59,6 +59,22 @@ body{
 
 }
 
+.links{
+    position: absolute;
+    bottom: 80px;
+    left: 208px;
+}
+
+.links a {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
 .circulo2{
     width: 120px;
     height: 120px;
@@ -68,4 +84,15 @@ body{
     bottom: 40px;
     right: 40px;
     z-index: 2;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+img:hover{
+    border-bottom: 4px solid rgb(255, 0, 0);
+    padding: 2px;
 }
